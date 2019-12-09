@@ -293,7 +293,7 @@ button:focus{
 
 .top-header .navbar .navbar-collapse ul li a:hover{
 	background: #63c7bd;
-	color: #ffffff;
+	color: white;
 }
 
 
@@ -307,7 +307,7 @@ button:focus{
 	animation-fill-mode: both;
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-	background: #fff;
+	background: white;
 	z-index: 20;
 }
 
