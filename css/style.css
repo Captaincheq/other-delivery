@@ -1,9 +1,3 @@
-/*------------------------------------------------------------------
-    IMPORT FONTS
--------------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Marck+Script');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -21,7 +15,6 @@ body {
 	/* background: url(../images/bg-wave.png);*/
     color: white;
     font-size: 15px;
-    font-family: 'Barlow', sans-serif;
 	line-height: 1.80857;
 }
 
@@ -395,7 +388,6 @@ button:focus{
 
 .lbox-details h1{
 	font-size: 68px;
-	font-family: 'Marck Script', cursive;
 	color: #ffffff;
 	position: relative;
 	z-index: 3;
@@ -413,9 +405,8 @@ button:focus{
 	z-index: 3;
 }
 .lbox-details p strong{
-	color: #dd666c;
+	color: #ffffff;
 	font-size: 40px;
-	font-family: 'Marck Script', cursive;
 }
 .lbox-details a.btn{
 	background: #63c7bd;
@@ -441,12 +432,11 @@ button:focus{
 }
 
 .title-box{
-	text-align: center;
+	text-align: left;
 	margin-bottom: 30px;
 }
 .title-box h2{
 	font-size: 60px;
-	font-family: 'Marck Script', cursive;
 	color: #222222;
 }
 .title-box h2 span{
@@ -455,7 +445,6 @@ button:focus{
 }
 .about-main-info h2{
 	font-size: 40px;
-	font-family: 'Marck Script', cursive;
 }
 .about-main-info h2 span{
 	color: #dd666c;
@@ -468,8 +457,8 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .story-box{
-	padding: 70px 0px;
-	color: black;
+	padding: 20px 0px;
+	color: white;
 }
 
 .align-left {
@@ -502,7 +491,7 @@ button:focus{
     position: absolute;
     content: "";
     width: 2px;
-    background-color: green;
+    background-color: white;
     left: calc(50% - 1px);
     height: calc(100% + 4rem);
 }
@@ -538,7 +527,6 @@ button:focus{
 }
 
 .display-font{
-	font-family: 'Marck Script', cursive;
 	font-size: 30px;
 	color: #222222;
 }
@@ -569,15 +557,14 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .family-box{
-	padding: 70px 0px;
 	color: black;
 }
 
 .single-team-member {
     position: relative;
-    margin-top: 30px;
-	border: 10px solid black;
-	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    margin-top: 10px;
+	border: 0px solid white;
+	box-shadow: 0 2px 5px white;
 }
 .family-img{
 	position: relative;
@@ -593,15 +580,14 @@ button:focus{
     -webkit-transition: .3s;
     transition: .3s;
     opacity: 0;
-    background-color: yellowgreen;
+    background-color: white;
 }
 .family-info{
-	padding: 25px 30px;
-	background-color: yellowgreen;
+	padding: 5px 0px;
+	background-color: white;
 }
 .family-info h4{
-	font-family: 'Marck Script', cursive;
-	font-size: 24px;
+	font-size: 15px;
 }
 .family-info p{
 	margin: 0px;
